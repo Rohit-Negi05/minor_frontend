@@ -1,0 +1,36 @@
+form {
+    border: 3px solid #f1f1f1;
+  }
+
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+  h1 {
+    margin-bottom: 3%;
+    margin-top: 2%;
+    color: black;
+    text-shadow: 1px 1px 2px black, 0 0 25px green, 0 0 5px whitesmoke;
+    text-align: center;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
